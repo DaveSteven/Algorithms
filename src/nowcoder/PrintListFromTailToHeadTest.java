@@ -28,10 +28,13 @@ public class PrintListFromTailToHeadTest {
 
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
 
+        // 方法1： 递归调用
         if (listNode != null) {
             printListFromTailToHead(listNode.next);
             array.add(listNode.val);
         }
+
+        // 方法2：使用栈和ArrayList实现队列
 //        Stack<Integer> stack = new Stack();
 //
 //        ListNode pre = listNode;
@@ -56,8 +59,6 @@ public class PrintListFromTailToHeadTest {
         head.next.next.next = new ListNode(58);
         PrintListFromTailToHeadTest print = new PrintListFromTailToHeadTest();
         print.printListFromTailToHead(head);
-
-//        printListFromTailToHead(head);
 
     }
 
