@@ -20,7 +20,7 @@ class ListNode {
 /**
  * 两种思路：
  * 1. 使用递归调用
- * 2. 使用栈和ArrayList实现队列的方式实现
+ * 2. 使用栈和ArrayList实现一个队列
  */
 public class PrintListFromTailToHeadTest {
 
