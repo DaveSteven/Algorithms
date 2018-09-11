@@ -28,7 +28,7 @@ public class PrintListFromTailToHeadTest {
 
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
 
-        // 方法1： 递归调用
+        // 方法1： 递归调用，后进先出
         if (listNode != null) {
             printListFromTailToHead(listNode.next);
             array.add(listNode.val);
