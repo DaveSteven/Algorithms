@@ -9,3 +9,4 @@
 4. [斐波那契数列](src/nowcoder/FibonacciTest.java)
 5. [跳台阶](src/nowcoder/JumpFloorTest.java)
 6. [变态跳台阶](src/nowcoder/JumpFloorIITest.java)
+7. [矩形覆盖](src/nowcoder/RectCoverTest.java)
